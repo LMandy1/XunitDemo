@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="1" preserve-order="true" name="D:\IdeaProjects\TestProject\XunitDemo">
+        <classes>
+            <class name="TestXunit.LoginTest">
+                <methods>
+                    <include name="testLogin"></include>
+                </methods>
+            </class>
+            <class name="TestXunit.ShoppingTest">
+                <methods>
+                    <include name="testGetPrice"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+<!--<classes>-->
+<!--<class name="DemoXunit.LoginTest">-->
+    <!--<methods>-->
+        <!--<include name="testLogin"/>-->
+    <!--</methods>-->
+<!--</class>-->
+<!--<class name="DemoXunit.ShoppingTest">-->
+    <!--<methods>-->
+        <!--<include name="testLogin"/>-->
+        <!--<include name="testLoginAndShopping"/>-->
+        <!--<include name="testDatas"/>-->
+    <!--</methods>-->
+<!--</class>-->
+<!--<class name="DemoXunit.ParamDataTest">-->
+    <!--<methods>-->
+        <!--<parameter name="aa" value="AA"/>-->
+        <!--<parameter name="bb" value="BB"/>-->
+        <!--<include name="testParams"/>-->
+    <!--</methods>-->
+<!--</class>-->
+<!--</classes>-->

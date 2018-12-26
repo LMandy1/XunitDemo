@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="62" started-at="2018-12-26T09:43:28Z" finished-at="2018-12-26T09:43:28Z">
+    <groups>
+    </groups>
+    <test name="D:\IdeaProjects\TestProject\XunitDemo" duration-ms="62" started-at="2018-12-26T09:43:28Z" finished-at="2018-12-26T09:43:28Z">
+      <class name="TestXunit.ShoppingTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestXunit.ShoppingTest@45c8e616]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:28Z" finished-at="2018-12-26T09:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:TestXunit.ShoppingTest@45c8e616]" name="testGetPrice" duration-ms="1" started-at="2018-12-26T09:43:28Z" data-provider="getProPrice" depends-on-methods="TestXunit.LoginTest.testLogin" finished-at="2018-12-26T09:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:TestXunit.ShoppingTest@45c8e616]" name="testGetPrice" duration-ms="0" started-at="2018-12-26T09:43:28Z" data-provider="getProPrice" depends-on-methods="TestXunit.LoginTest.testLogin" finished-at="2018-12-26T09:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:TestXunit.ShoppingTest@45c8e616]" name="testGetPrice" duration-ms="1" started-at="2018-12-26T09:43:28Z" data-provider="getProPrice" depends-on-methods="TestXunit.LoginTest.testLogin" finished-at="2018-12-26T09:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method status="PASS" signature="testGetPrice(int, int)[pri:0, instance:TestXunit.ShoppingTest@45c8e616]" name="testGetPrice" duration-ms="1" started-at="2018-12-26T09:43:28Z" data-provider="getProPrice" depends-on-methods="TestXunit.LoginTest.testLogin" finished-at="2018-12-26T09:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestXunit.ShoppingTest@45c8e616]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:28Z" finished-at="2018-12-26T09:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- TestXunit.ShoppingTest -->
+      <class name="TestXunit.LoginTest">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestXunit.LoginTest@1fbc7afb]" name="testLogin" duration-ms="6" started-at="2018-12-26T09:43:28Z" data-provider="getUsers" finished-at="2018-12-26T09:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangsan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[欢迎zhangsan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestXunit.LoginTest@1fbc7afb]" name="testLogin" duration-ms="0" started-at="2018-12-26T09:43:28Z" data-provider="getUsers" finished-at="2018-12-26T09:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lisi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestXunit.LoginTest@1fbc7afb]" name="testLogin" duration-ms="1" started-at="2018-12-26T09:43:28Z" data-provider="getUsers" finished-at="2018-12-26T09:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[欢迎管理员]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestXunit.LoginTest@1fbc7afb]" name="testLogin" duration-ms="0" started-at="2018-12-26T09:43:28Z" data-provider="getUsers" finished-at="2018-12-26T09:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- TestXunit.LoginTest -->
+    </test> <!-- D:\IdeaProjects\TestProject\XunitDemo -->
+  </suite> <!-- All Test Suite -->
+  <suite name="All Test Suite (0)" duration-ms="28" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+    <groups>
+    </groups>
+    <test name="D:\IdeaProjects\TestProject\XunitDemo" duration-ms="28" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+      <class name="TestXunit.ShoppingBuysTest">
+        <test-method status="PASS" signature="testBefore()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBefore" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBefore -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="0" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="0" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="1" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="1" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="0" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="1" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[puser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="0" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[puser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="0" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[puser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="1" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[puser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="0" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[puser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testShoppingBuys(java.lang.String, java.lang.String, int, int, int)[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testShoppingBuys" duration-ms="1" started-at="2018-12-26T09:43:29Z" data-provider="getBuys" finished-at="2018-12-26T09:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[puser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingBuys -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testBaforemd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testBaforemd" is-config="true" duration-ms="0" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaforemd -->
+        <test-method status="PASS" signature="testAftermd()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAftermd" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAftermd -->
+        <test-method status="PASS" signature="testAfter()[pri:0, instance:TestXunit.ShoppingBuysTest@6e8dacdf]" name="testAfter" is-config="true" duration-ms="1" started-at="2018-12-26T09:43:29Z" finished-at="2018-12-26T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfter -->
+      </class> <!-- TestXunit.ShoppingBuysTest -->
+    </test> <!-- D:\IdeaProjects\TestProject\XunitDemo -->
+  </suite> <!-- All Test Suite (0) -->
+</testng-results>
