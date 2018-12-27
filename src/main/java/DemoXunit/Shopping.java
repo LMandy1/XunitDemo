@@ -40,13 +40,17 @@ public class Shopping {
     public int buy(int proId, int count){
         if(login.isLogin == true){
             pro = getPro(proId);
-            int proCount = pro.getCount();
+            if(pro != null){
+                int proCount = pro.getCount();
 
-            if(proCount > count ){  //
-                pro.setCount(proCount - count );
-                return 1;
+                if(proCount > count ){  //
+                    pro.setCount(proCount - count );
+                    return 1;
+                }else{
+                    return 0;
+                }
             }else{
-                return 0;
+                return -2;
             }
         }else{
             return -1;
@@ -78,15 +82,17 @@ public class Shopping {
      * @return  -2 未登录；-1 购买数量<=0；1 购买成功; 0 库存不足
      */
     public int buys(int proId, int count) {
+        pro = getPro(proId);
         if (login.isLogin == false) {
             return -2;
-        } else{
+        } else if(pro == null){
+            return -3;
+        }else{
                 //欲购买数量是否大于0
                 if (count <= 0) {
                     return -1;
                 }
 
-            pro = getPro(proId);
             int proCount = pro.getCount();
 
             //库存充盈，可以购买
@@ -108,7 +114,8 @@ public class Shopping {
         Shopping shopping = new Shopping();
         Login login = new Login();
         login.userLogin("admin","123456");
-        System.out.println(shopping.buys(2,0));
+//        System.out.println(shopping.buy(5,5));
+        System.out.println(shopping.buys(2,1));
     }
 
 }

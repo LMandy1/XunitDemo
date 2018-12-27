@@ -26,20 +26,26 @@ public class ShoppingBuysTest {
     public void testShoppingBuys(String name,String pwd,int proId,int count,int ex){
         login.userLogin(name,pwd);
         Products pro = Products.getPro(proId);
-        int profCount = pro.getCount();
-        int proeCount = profCount - count;
         String userStr;
-        if(login.isLogin == false){
-            userStr = name;
-        }else  if (count<0 || proeCount<0){
-            proeCount = profCount;
-            userStr = String.format("%s目前的库存为：%s,用户%s,买%s件%s",pro.getProName(),profCount,name,count,pro.getProName());
+        if(login.isLogin == false || pro == null){
+            userStr = "用户"+name;
         }else {
-            proeCount = proeCount;
-            userStr = String.format("%s目前的库存为：%s,用户%s,买%s件%s,该商品剩余%s",pro.getProName(),profCount,name,count,pro.getProName(),proeCount);
+            int profCount = pro.getCount();
+            int proeCount = profCount - count;
+
+            if (count<0 || proeCount<0){
+                proeCount = profCount;
+                userStr = String.format("%s目前的库存为：%s,用户%s,买%s件%s",pro.getProName(),profCount,name,count,pro.getProName());
+            }else {
+                proeCount = proeCount;
+                userStr = String.format("%s目前的库存为：%s,用户%s,买%s件%s,该商品剩余%s",pro.getProName(),profCount,name,count,pro.getProName(),proeCount);
+            }
         }
         int ac = shopping.buys(proId,count);
         switch (ac){
+            case -3:
+                System.out.print(userStr+"购买商品不存在");
+                break;
             case -2:
                 System.out.print(userStr+" 未登录，不能购买商品  ");
                 break;

@@ -30,7 +30,7 @@ public enum Products {
     public static Products getPro(int proId){
 
         for(Products product : Products.values()){
-            if(product.getProId() == proId){
+            if(proId == product.getProId()){
                 return product;
             }
         }
@@ -70,7 +70,7 @@ public enum Products {
         this.count = count;
     }
     public static void main(String args[]){
-        Products pro = getPro(1);
+        Products pro = getPro(5);
         System.out.println(pro);
         for (Products p:Products.values()){
             System.out.println(p.proName);
