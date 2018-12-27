@@ -79,13 +79,13 @@ public class Shopping {
      * buy的正确打开方式
      * @param proId
      * @param count
-     * @return  -2 未登录；-1 购买数量<=0；1 购买成功; 0 库存不足
+     * @return  -3 商品不存在；-2 未登录；-1 购买数量<=0；1 购买成功; 0 库存不足
      */
     public int buys(int proId, int count) {
         pro = getPro(proId);
         if (login.isLogin == false) {
             return -2;
-        } else if(pro == null){
+        } else if(pro == null){ //判断商品是否存在
             return -3;
         }else{
                 //欲购买数量是否大于0
